@@ -29,6 +29,7 @@ Safely delete stacks and associated resources
 Understand the power of Infrastructure as Code for automation and scalability
 
 ## **Architecture Diagram**
+<img width="900" height="500" alt="511745bf-c45a-450e-9a2d-5fa6d9a7ef49" src="https://github.com/user-attachments/assets/367dbcdf-456c-4c6e-9ba8-741578531389" />
 
 Architecture Description:
 
@@ -141,13 +142,17 @@ Stack removed along with all resources (VPC, EC2, S3)
 
 ## **Screenshots**
 
-CloudFormationCreateStack.png	Stack creation progress showing VPC and Security Group.
+Stack creation progress showing VPC and Security Group.
+<img width="1654" height="400" alt="createstake comnplete" src="https://github.com/user-attachments/assets/da6a9971-1da1-4216-b49d-a692eda98186" />
 
-S3BucketAdded.png	Updated stack reflecting the new S3 bucket resource.
+Updated stack reflecting the new S3 bucket resource.
+<img width="1873" height="400" alt="s3 bucket added" src="https://github.com/user-attachments/assets/199c1d73-6a35-47fe-9eb2-d8961f529b2c" />
 
-AppServerDeployed.png	EC2 instance successfully launched via CloudFormation.
+EC2 instance successfully launched via CloudFormation.
+<img width="1687" height="400" alt="AppServerDeployed" src="https://github.com/user-attachments/assets/f2e338f0-36dc-4711-8c16-f0b80c03b0ac" />
 
-DeleteStackConfirmation.png	Stack deletion process with resources being cleaned up.
+Stack deletion process with resources being cleaned up.
+<img width="1713" height="400" alt="DeleteStackConfirmation" src="https://github.com/user-attachments/assets/343cdd0a-0145-4a0f-98df-f2bc70b13a6d" />
 
 
 ## **Key Takeaways**
